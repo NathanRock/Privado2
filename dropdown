@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Sobre</title>
+</head>
+
+<body>
+    <section>
+        <h3>
+            Profissional Experiences
+        <h3>
+
+        <div>
+            <div class='template-experience'>
+                <span id='localwork'>
+                    Software Enginner @ College
+                </span>
+
+                <span id='datawork'>
+                    2023 - Present
+                </span>
+
+                <button onclick='show_experience()' id='dataworkbutton'>
+                    +
+                </button>
+            </div>
+        </div>
+
+        <div class='template-experience-create'>
+
+            <img src='img/localicon.svg' width='3%' style='vertical-align: middle'>
+            <span>
+                Guarulhos, São Paulo 
+            </span>
+        
+
+            <div class='boximagecase'>
+                <div>
+                    <p>
+                        Developing front-end and mobile app solutions (B2C, B2B) in Travel Tech on React/Next.js framework and Flutter SDK.
+                    </p>
+
+                    <ul class='list-factors'>
+                    <li>
+                        Javascript
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        Javascript
+                    </li>
+                    <li>
+                        PHP
+                    </li>
+                </ul>
+                </div>
+
+                <div class='boximagecase-image'>
+                    <img src='img/logoeniacircle.png' width='60%' style='border-radius: 50%;'>
+                </div>
+        </div>
+    </section>
+
+<script src='experiences.js'></script>
+</body>
+</html>
